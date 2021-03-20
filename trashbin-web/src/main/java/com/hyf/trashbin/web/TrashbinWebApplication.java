@@ -1,0 +1,13 @@
+package com.hyf.trashbin.web;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class TrashbinWebApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(TrashbinWebApplication.class, args);
+	}
+
+}
